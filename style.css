@@ -1,7 +1,21 @@
 /*pretty*/
+body {
+	background: url('https://cdn.pixabay.com/photo/2014/03/09/17/05/africa-283868_1280.jpg');
+	background-repeat: no-repeat;
+}
+
 img {
-	height: 300px;
-	width: 350px;
+	display: block;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+h1{
+	display: block;
+	text-align: center;
+	font-size: 50px;
+	outline : 1px white solid;
 }
 
 .ui-accordion .ui-accordion-header {
@@ -38,8 +52,15 @@ img {
     font-weight: normal;
     color: #ffffff;
 }
+#accordion {
+	width: 700px;
+	margin: 0 auto;
+}
 
-
+#tabs{
+	width: 700px;
+	margin: 0 auto;
+}
 
 
 
