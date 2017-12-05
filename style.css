@@ -1,0 +1,47 @@
+/*pretty*/
+img {
+	height: 300px;
+	width: 350px;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+    padding: .5em .5em .5em .7em;
+    font-size: 100%;
+    background: grey;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid;
+    background: #007fff;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #fffdfd;
+    color: #333333;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+    color: #white;
+    text-decoration: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid;
+    background: #bbc3cc;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
